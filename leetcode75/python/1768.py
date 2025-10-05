@@ -13,3 +13,26 @@ class Solution:
                 out.append(word2[j]); j += 1
             
         return ''.join(out)
+    
+
+'''
+FUNCTION mergeAlternately(word1: string, word2: string) -> string
+    i := 0
+    j := 0
+    result := empty string builder
+
+    WHILE i < LENGTH(word1) AND j < LENGTH(word2):
+        APPEND word1[i] TO result
+        APPEND word2[j] TO result
+        i := i + 1
+        j := j + 1
+
+    # append any remaining tail
+    IF i < LENGTH(word1):
+        APPEND SUBSTRING(word1, i, LENGTH(word1)-i) TO result
+    IF j < LENGTH(word2):
+        APPEND SUBSTRING(word2, j, LENGTH(word2)-j) TO result
+
+    RETURN result
+
+'''
