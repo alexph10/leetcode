@@ -1,6 +1,3 @@
-#### Leetcode
-A collection of LeetCode questions
-
 <!---LeetCode Topics Start-->
 #### LeetCode Topics
 #### Array
